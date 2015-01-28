@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6B09961A60DB180066ECEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B09951A60DB180066ECEF /* AppDelegate.swift */; };
+		EF6B09981A60DB180066ECEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B09971A60DB180066ECEF /* ViewController.swift */; };
+		EF6B099B1A60DB180066ECEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6B09991A60DB180066ECEF /* Main.storyboard */; };
+		EF6B099D1A60DB180066ECEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6B099C1A60DB180066ECEF /* Images.xcassets */; };
+		EF6B09A01A60DB180066ECEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6B099E1A60DB180066ECEF /* LaunchScreen.xib */; };
+		EF6B09AC1A60DB180066ECEF /* StyleGrid_MVP_0_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B09AB1A60DB180066ECEF /* StyleGrid_MVP_0_01Tests.swift */; };
+		EF6B09B61A61DAE40066ECEF /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6B09B51A61DAE40066ECEF /* Registration.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6B09A61A60DB180066ECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6B09881A60DB180066ECEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6B098F1A60DB180066ECEF;
+			remoteInfo = StyleGrid_MVP_0.01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6B09901A60DB180066ECEF /* StyleGrid_MVP_0.01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleGrid_MVP_0.01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6B09941A60DB180066ECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6B09951A60DB180066ECEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF6B09971A60DB180066ECEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF6B099A1A60DB180066ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6B099C1A60DB180066ECEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF6B099F1A60DB180066ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF6B09A51A60DB180066ECEF /* StyleGrid_MVP_0.01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleGrid_MVP_0.01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6B09AA1A60DB180066ECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6B09AB1A60DB180066ECEF /* StyleGrid_MVP_0_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGrid_MVP_0_01Tests.swift; sourceTree = "<group>"; };
+		EF6B09B51A61DAE40066ECEF /* Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6B098D1A60DB180066ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6B09A21A60DB180066ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6B09871A60DB180066ECEF = {
+			isa = PBXGroup;
+			children = (
+				EF6B09921A60DB180066ECEF /* StyleGrid_MVP_0.01 */,
+				EF6B09A81A60DB180066ECEF /* StyleGrid_MVP_0.01Tests */,
+				EF6B09911A60DB180066ECEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6B09911A60DB180066ECEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B09901A60DB180066ECEF /* StyleGrid_MVP_0.01.app */,
+				EF6B09A51A60DB180066ECEF /* StyleGrid_MVP_0.01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6B09921A60DB180066ECEF /* StyleGrid_MVP_0.01 */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B09951A60DB180066ECEF /* AppDelegate.swift */,
+				EF6B09971A60DB180066ECEF /* ViewController.swift */,
+				EF6B09991A60DB180066ECEF /* Main.storyboard */,
+				EF6B09B51A61DAE40066ECEF /* Registration.storyboard */,
+				EF6B099C1A60DB180066ECEF /* Images.xcassets */,
+				EF6B099E1A60DB180066ECEF /* LaunchScreen.xib */,
+				EF6B09931A60DB180066ECEF /* Supporting Files */,
+			);
+			path = StyleGrid_MVP_0.01;
+			sourceTree = "<group>";
+		};
+		EF6B09931A60DB180066ECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B09941A60DB180066ECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF6B09A81A60DB180066ECEF /* StyleGrid_MVP_0.01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B09AB1A60DB180066ECEF /* StyleGrid_MVP_0_01Tests.swift */,
+				EF6B09A91A60DB180066ECEF /* Supporting Files */,
+			);
+			path = StyleGrid_MVP_0.01Tests;
+			sourceTree = "<group>";
+		};
+		EF6B09A91A60DB180066ECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B09AA1A60DB180066ECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6B098F1A60DB180066ECEF /* StyleGrid_MVP_0.01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6B09AF1A60DB180066ECEF /* Build configuration list for PBXNativeTarget "StyleGrid_MVP_0.01" */;
+			buildPhases = (
+				EF6B098C1A60DB180066ECEF /* Sources */,
+				EF6B098D1A60DB180066ECEF /* Frameworks */,
+				EF6B098E1A60DB180066ECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StyleGrid_MVP_0.01;
+			productName = StyleGrid_MVP_0.01;
+			productReference = EF6B09901A60DB180066ECEF /* StyleGrid_MVP_0.01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6B09A41A60DB180066ECEF /* StyleGrid_MVP_0.01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6B09B21A60DB180066ECEF /* Build configuration list for PBXNativeTarget "StyleGrid_MVP_0.01Tests" */;
+			buildPhases = (
+				EF6B09A11A60DB180066ECEF /* Sources */,
+				EF6B09A21A60DB180066ECEF /* Frameworks */,
+				EF6B09A31A60DB180066ECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6B09A71A60DB180066ECEF /* PBXTargetDependency */,
+			);
+			name = StyleGrid_MVP_0.01Tests;
+			productName = StyleGrid_MVP_0.01Tests;
+			productReference = EF6B09A51A60DB180066ECEF /* StyleGrid_MVP_0.01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6B09881A60DB180066ECEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yilun Chen";
+				TargetAttributes = {
+					EF6B098F1A60DB180066ECEF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF6B09A41A60DB180066ECEF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF6B098F1A60DB180066ECEF;
+					};
+				};
+			};
+			buildConfigurationList = EF6B098B1A60DB180066ECEF /* Build configuration list for PBXProject "StyleGrid_MVP_0.01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6B09871A60DB180066ECEF;
+			productRefGroup = EF6B09911A60DB180066ECEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6B098F1A60DB180066ECEF /* StyleGrid_MVP_0.01 */,
+				EF6B09A41A60DB180066ECEF /* StyleGrid_MVP_0.01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6B098E1A60DB180066ECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6B099B1A60DB180066ECEF /* Main.storyboard in Resources */,
+				EF6B09B61A61DAE40066ECEF /* Registration.storyboard in Resources */,
+				EF6B09A01A60DB180066ECEF /* LaunchScreen.xib in Resources */,
+				EF6B099D1A60DB180066ECEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6B09A31A60DB180066ECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6B098C1A60DB180066ECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6B09981A60DB180066ECEF /* ViewController.swift in Sources */,
+				EF6B09961A60DB180066ECEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6B09A11A60DB180066ECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6B09AC1A60DB180066ECEF /* StyleGrid_MVP_0_01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6B09A71A60DB180066ECEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6B098F1A60DB180066ECEF /* StyleGrid_MVP_0.01 */;
+			targetProxy = EF6B09A61A60DB180066ECEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6B09991A60DB180066ECEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6B099A1A60DB180066ECEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6B099E1A60DB180066ECEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6B099F1A60DB180066ECEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6B09AD1A60DB180066ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF6B09AE1A60DB180066ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6B09B01A60DB180066ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StyleGrid_MVP_0.01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF6B09B11A60DB180066ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StyleGrid_MVP_0.01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF6B09B31A60DB180066ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StyleGrid_MVP_0.01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleGrid_MVP_0.01.app/StyleGrid_MVP_0.01";
+			};
+			name = Debug;
+		};
+		EF6B09B41A60DB180066ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StyleGrid_MVP_0.01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleGrid_MVP_0.01.app/StyleGrid_MVP_0.01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6B098B1A60DB180066ECEF /* Build configuration list for PBXProject "StyleGrid_MVP_0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6B09AD1A60DB180066ECEF /* Debug */,
+				EF6B09AE1A60DB180066ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6B09AF1A60DB180066ECEF /* Build configuration list for PBXNativeTarget "StyleGrid_MVP_0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6B09B01A60DB180066ECEF /* Debug */,
+				EF6B09B11A60DB180066ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6B09B21A60DB180066ECEF /* Build configuration list for PBXNativeTarget "StyleGrid_MVP_0.01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6B09B31A60DB180066ECEF /* Debug */,
+				EF6B09B41A60DB180066ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6B09881A60DB180066ECEF /* Project object */;
+}
